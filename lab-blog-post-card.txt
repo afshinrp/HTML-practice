@@ -1,0 +1,93 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="blog-post-card">
+    <img src="https://cdn.freecodecamp.org/curriculum/labs/cover-photo.jpg" alt="alt text" class="post-img">
+    <div class="post-content">
+<h2 class="post-title">Iran daily good news</h2>
+    
+
+        <p class="post-excerpt">Today, we have a good news about something</p>
+        <hr>
+        <a href="#" class="read-more" >Read More</a>
+
+        </div>
+
+    </div>
+
+
+
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+* {
+  background-color: grey;
+}
+.blog-post-card {
+  background-color: white;
+    width: 350px;
+      height: 450px;
+      border-radius: 10px;
+      text-align: center;  
+      padding: 5px;
+}
+
+.post-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-bottom: solid 2px red;
+      
+}
+
+.post-title {
+  background-color: white;
+  color: darkgray;
+  font-family: Arial;
+  text-align: center;
+  margin: 5px;
+}
+
+.post-content {
+font-family: Tahoma;
+  font-size: 18px;
+  padding: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.post-excerpt {
+  font-family: Tahoma;
+  font-size: 16px;
+  margin: 5px;
+  color: blue;
+}
+
+.read-more {
+color: blue;
+background-color: gold;
+margin: 10px;
+padding: 5px;
+border-radius: 5px;
+display: inline-block;
+}
+
+.read-more:hover {
+  background-color: blue;
+}
+
+** end of undefined **
+

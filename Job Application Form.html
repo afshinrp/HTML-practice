@@ -1,0 +1,92 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name"
+            name="name"></input>
+            <br>
+            <br>
+              <label for="email">email</label><br>
+            <input type="email" id="email"
+            name="email"></input>
+            <br>
+            <br>
+            <label for="position">Position</label><br>
+            <select id="position" name="position">
+                <option>Select position ...</option>
+                <option value="ceo">CEO</option>
+                <option value="technicalmanager">Technical Manager</option>
+                <option value="secretary">Secretary</option>
+                <option value="office">Office</option>
+                </select>
+<br>
+<br>
+                <fieldset class="radio-group">
+                    <legend name="availability" id="availability">Availability</legend>
+                    <input type="radio" name="availability" id="fullTime" value="fullTime" checked></input>
+                    <label for="fullTime" >Full-Time</label>
+                                        <input type="radio" name="availability" id="partTime" value="partTime"></input>
+                    <label for="partTime">Part-Time</label>
+                </fieldset>
+                <br>
+                <textarea id="message">
+
+                </textarea>
+
+            <br>
+            <br>
+            <button type="submit">Submit</button>
+
+        </form>
+    </div>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+input:focus, textarea:focus {
+  border-color: orange;
+}
+
+input:invalid, select:invalid, textarea:invalid {
+  border-color: red;
+}
+
+input:valid, select:valid, textarea:valid {
+  border-color: green;
+}
+
+button:hover {
+  background-color: lightblue
+}
+
+input[type="radio"]:checked + label {
+  color: blue
+  }
+
+.radio-group input[type="radio"]:checked {
+  border-color: blue;
+  background-color: yellow;
+  box-shadow: 0 0 5px 3px red
+  }
+
+input:first-of-type {
+  border-radius: 5px;
+}
+
+** end of undefined **
+
