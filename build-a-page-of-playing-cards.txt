@@ -1,0 +1,109 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Playing Cards</title>
+  <link rel="stylesheet" href="styles.css"
+
+</head>
+
+<body>
+  <main id="playing-cards">
+    <div class="card">
+      <div class="left">10<br>♠
+        </div>
+
+              <div class="middle">♠♠♠<br>
+              ♠♠<br>
+              ♠
+            <br>
+            ♠♠<br>♠♠♠
+
+        </div>
+
+              <div class="right">
+                    10<br>♠
+        </div>
+      </div>
+
+      <div class="card">
+              <div class="left">
+        </div>
+
+              <div class="middle">
+        </div>
+
+              <div class="right">
+        </div>
+      </div>
+
+      <div class="card">
+              <div class="left">
+        </div>
+
+              <div class="middle">
+        </div>
+
+              <div class="right">
+        </div>
+      </div>
+    </main>
+
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+main {
+  background-color: pink;
+  font-family: tahoma;
+  font-size: 18px;
+  text-align: center;
+}
+
+#playing-cards {
+  display: flex;
+flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+gap: 20px;
+}
+
+.card {
+  display: flex;
+justify-content: space-between;
+  width: 150px;
+  height: 250px;
+background-color:white;
+ border-radius: 10px;
+}
+
+.left {
+  width: 100px;
+  height: 50px; 
+  align-self: flex-start; background-color: red;
+}
+
+.middle {
+    width: 100px;
+height: 200px;   
+  align-self: center;
+flex-direction: column;  background-color: yellow;
+font-size:32px;
+}
+
+.right {
+   width: 100px;
+   height: 50px; 
+     align-self: flex-end;background-color: green;
+}
+
+** end of styles.css **
+
